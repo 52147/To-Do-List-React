@@ -68,7 +68,7 @@ function ToDoItem(props) {
  ## App component
  - add addItem function can return the update array.
  ```javascript
-   // addItem functin:
+  // addItem functin:
   // call setItem function in addItem function to update user input to array
   function addItem(inputText) {
     setItems((prevItems) => {
@@ -86,7 +86,7 @@ function ToDoItem(props) {
  ## InputArea component
  - when user click the button, onChange will call the handleChange function
 ```javascript
-      <div className="form">
+     <div className="form">
       <input onChange={handleChange} type="text" value={inputText} />
 
       <button
@@ -102,7 +102,7 @@ function ToDoItem(props) {
 - In the handleChange function, we useState to keep update the user input by use setInputText function.
 - pass the props of ToDoItem component to delete the give the id to the deleteItem function in App component.
 ```javascript 
-      const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState("");
   // handleChange function:
   // when user click the add button, handle change function will update the new user input
   function handleChange(event) {
