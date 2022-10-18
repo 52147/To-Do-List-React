@@ -65,7 +65,7 @@ function ToDoItem(props) {
  ```
  
  ### Update the list after click the add button
- ## App component
+ #### App component
  - add addItem function can return the update array.
  ```javascript
   // addItem functin:
@@ -83,7 +83,7 @@ function ToDoItem(props) {
  <InputArea onAdd={addItem} />
   ```
   
- ## InputArea component
+ #### InputArea component
  - when user click the button, onChange will call the handleChange function
 ```javascript
      <div className="form">
