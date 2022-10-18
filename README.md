@@ -65,7 +65,8 @@ function ToDoItem(props) {
  ```
  
  ### Update the list after click the add button
- In App component, add addItem function can return the update array.
+ ## App component
+ - add addItem function can return the update array.
  ```javascript
    // addItem functin:
   // call setItem function in addItem function to update user input to array
@@ -82,8 +83,8 @@ function ToDoItem(props) {
  <InputArea onAdd={addItem} />
   ```
   
-  In the InputArea component
-  when user click the button, onChange will call the handleChange function
+ ## InputArea component
+ - when user click the button, onChange will call the handleChange function
 ```javascript
       <div className="form">
       <input onChange={handleChange} type="text" value={inputText} />
@@ -109,3 +110,5 @@ function ToDoItem(props) {
     setInputText(newValue);
   }
  ```
+## Reference
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
