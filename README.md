@@ -12,9 +12,9 @@
 
 ## Implement Function
 - There are 3 components in this project.
-- 1. App component: contains add and delete item and the web mainly layout.
-- 2. InputArea component: process when user input the item, after user click add buttom. contains handleChange function and button
-- 3. ToDoItem: process when user click the item, item be deleted from the list. So return html is the list after item be deleted.
+- 1. `App component`: contains add and delete item and the web mainly layout.
+- 2. `InputArea component`: process when user input the item, after user click add buttom. contains handleChange function and button
+- 3. `ToDoItem`: process when user click the item, item be deleted from the list. So return html is the list after item be deleted.
 
 ### Use Map to delete the item be clicked
 
